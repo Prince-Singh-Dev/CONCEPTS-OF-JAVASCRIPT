@@ -1,2 +1,3 @@
 # CONCEPTS-OF-JAVASCRIPT
-THIS REPOSITORY CONTAIN THE CONCEPTS OF JAVASCRIPT THAT ARE USED IN FRONT-END WEB DEVELOPING REQUIRED AT INDUSTRY LEVEL 
+
+This repository contains comprehensive concepts of JavaScript essential for front-end web development, focusing on industry-level requirements and best practices
