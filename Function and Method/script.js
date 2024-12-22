@@ -1,3 +1,4 @@
+//Making of functions in javascript 
 function myfunction(msg){
     //parameter --> input
     console.log(msg);
