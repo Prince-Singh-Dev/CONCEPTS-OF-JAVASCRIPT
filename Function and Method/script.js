@@ -28,3 +28,25 @@ console.log(x);
 //Function parameters are like Local variables of Function and they have Block scope of function 
 
 //Arrow Function : Compact Way of Writing a Function 
+// const functionname = (param1 , param2 , ...)=>{
+//      do some work 
+//}
+
+//for example : const sum =(a,b)=>{
+//  return a+break;
+//}
+
+const arrowsum = (a,b)=>{
+    console.log(a+b);
+}
+// Output : (a,b)=>{
+//     console.log(a+b);
+// }
+
+const arrowmulti = (a,b)=>{
+    console.log(a*b);
+} 
+
+// Output :arrowmulti(3,4)
+//                      12
+
