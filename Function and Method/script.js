@@ -50,3 +50,27 @@ const arrowmulti = (a,b)=>{
 // Output :arrowmulti(3,4)
 //                      12
 
+//forEach loop in Arrays 
+
+// arr.forEach(callbackfunction)
+// Callbackfunction : Here , it is a function to execute for each element in the array 
+// A callback is a function passed as an argument to another function 
+
+// Syntax : arr.forEach((val)=>{
+//     console.log(val);
+// }) 
+
+//For example :
+
+let arr = [1,2,3,4];
+
+arr.forEach(function printVal(val){ //Value at each index 
+        console.log(val);
+})
+
+// Output :
+// 1
+// 2
+// 3
+// 4
+
