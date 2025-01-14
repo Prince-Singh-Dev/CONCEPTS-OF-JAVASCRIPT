@@ -3,6 +3,11 @@ h1{
     background-color: chartreuse;
 } /*Giving styling to HEADING 1*/
 
+h2{
+    color: crimson;
+    background-color: aqua;
+}
+
 button{
     color: blue;
     background-color: blanchedalmond;
