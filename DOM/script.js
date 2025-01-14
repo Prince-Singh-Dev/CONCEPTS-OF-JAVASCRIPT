@@ -12,3 +12,11 @@ console.log(window); //Printing window objects on console window
 
 //DOM : When a web page is loaded , the browser creates a Document object Model of the page 
 //HTML code is converted into special object named as Document which is part of JAVASCRIPT 
+
+//DOM MAnipulation 
+
+let heading = document.getElementById("heading"); //H1
+console.log(heading); //OUTPUT ON CONSOLE : <h1 id="heading">DOM demo by Prince</h1>
+
+//to learn more DOM manupilation concpets , kindly visit APNA COLLEGE
+
