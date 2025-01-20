@@ -46,5 +46,30 @@ div.style.fontSize = "26px";
 //changing the font
 div.innerText ="Love you shivangi";
 
+//Inserting a new element 
+//first we have to create an element then it will bw inserted 
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click me !";
+console.log(newBtn);
+
+//append : adds at the end of the node (inside)
+
+let div=document.querySelector("div");
+div.append(newBtn); //Appending the button in div box 
+
+let div=document.querySelector("div");
+div.prepend(newBtn); //Inserting the button at start of div box
+
+let div=document.querySelector("div");
+div.before(newBtn); //Inserting the button before the div box
+
+let div=document.querySelector("div");
+div.after(newBtn); //Inserting the button after the div box
+
+//to delete the paragraph 
+let para=document.querySelector("p");
+para.remove();
+
 
 
