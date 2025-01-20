@@ -31,7 +31,20 @@ console.log(para.getAttribute("class")); //to get the attribute value
 
 //to change the class name para 
 let shivi = document.querySelector("p");
-console.log(shivi.setAttribute("newclass")); //to set the attribute value 
+console.log(shivi.setAttribute("newclass")); //to set the attribute value
+
+//to change the style of any element 
+let div = document.querySelector("div");
+
+//to change background colour style of box 
+div.style.backgroundColor = "green";
+div.style.backgroundColor = "purple";
+
+//to chnage the font of box 
+div.style.fontSize = "26px";
+
+//changing the font
+div.innerText ="Love you shivangi";
 
 
 
