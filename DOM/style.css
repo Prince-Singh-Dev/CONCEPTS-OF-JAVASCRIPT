@@ -12,3 +12,12 @@ button{
     color: blue;
     background-color: blanchedalmond;
 } /*Giving styling to Button*/
+
+/*Giving styling to box id */
+#box {
+    height :100px;
+    width : 100px;
+    background-color:brown;
+    color : antiquewhite;
+    border : 1px solid black ;
+}
