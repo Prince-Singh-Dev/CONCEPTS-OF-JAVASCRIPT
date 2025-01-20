@@ -20,3 +20,18 @@ console.log(heading); //OUTPUT ON CONSOLE : <h1 id="heading">DOM demo by Prince<
 
 //to learn more DOM manupilation concpets , kindly visit APNA COLLEGE
 
+let div = document.querySelector("div");
+console.log(div); //To access the div in console
+
+let id = div.getAttribute("id");
+console.log(id) //Asseccing through class or id 
+
+let para = document.querySelector("p");
+console.log(para.getAttribute("class")); //to get the attribute value 
+
+//to change the class name para 
+let shivi = document.querySelector("p");
+console.log(shivi.setAttribute("newclass")); //to set the attribute value 
+
+
+
