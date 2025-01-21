@@ -24,3 +24,13 @@ let div = document.querySelector("div");
 div.onmouseover=() => {
     console.log("love you shivangi joshi");
 };
+
+// //EVENT OBJECT
+
+// It is a special object that has details about the event
+// all event handlers have access to the event object's properties and methods
+
+// Node.event=(e) => {
+//     //handle here }
+
+// e.target,e.type,e.clientX,e.clientY
