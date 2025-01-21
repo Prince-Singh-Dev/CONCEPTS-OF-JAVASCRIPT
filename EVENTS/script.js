@@ -8,3 +8,19 @@
 // 2. KEYBOARD EVENTS (keypress , keyup , keydown)
 // 3. FORM EVENTS (submit)
 // 4. PRINT EVENTS and many more 
+
+// to handle events in JS
+
+let btn1 = document.querySelector("#btn1");
+
+btn1.onclick =() => {
+    console.log("I love you shivangi");
+    let a = 2999;
+    a++ ;
+    console.log(a);
+};
+
+let div = document.querySelector("div");
+div.onmouseover=() => {
+    console.log("love you shivangi joshi");
+};
