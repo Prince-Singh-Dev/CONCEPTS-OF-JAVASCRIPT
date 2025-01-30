@@ -1,4 +1,4 @@
-//EVENTS IN JS 
+//EVENTS IN JS .
 
 // The change in the state of an object is known as an event
 // events are fired to notify code of "interesting changes" that may affect code execution
