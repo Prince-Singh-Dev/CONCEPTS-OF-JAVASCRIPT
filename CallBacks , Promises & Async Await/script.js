@@ -74,3 +74,7 @@ getData(1,()=>{
 //Promises use to solve the callback hell problem for programmers
 //Promises is for "Eventual" complettion of task. It is an object in JS. It is a solution to callback hell . 
 //Resolves and reject are callbacks provided by JS
+
+let promise = new Promise(( resolve , reject ) => {
+    console.log("I am a promise");
+});
