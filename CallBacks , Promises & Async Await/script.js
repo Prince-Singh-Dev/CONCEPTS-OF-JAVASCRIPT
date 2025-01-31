@@ -79,3 +79,15 @@ let promise = new Promise(( resolve , reject ) => {
     console.log("I am a promise");
     resolve("I LOVE YOU SHIVANGI"); //To resolve the promise
 });
+
+function getData(dataId , getNextData ){   //getData will return a data and giving a promise that , data will be given to you in next 5 seconds
+    return new Promise((resolve , reject)=>{
+        setTimeout(() => {
+            console.log("data",dataId);
+            resolve("success");
+            if(getNextData){
+                getNextData;
+            }
+        },5000);
+    });
+}
