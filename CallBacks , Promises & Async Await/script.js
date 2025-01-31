@@ -77,4 +77,5 @@ getData(1,()=>{
 
 let promise = new Promise(( resolve , reject ) => {
     console.log("I am a promise");
+    resolve("I LOVE YOU SHIVANGI"); //To resolve the promise
 });
