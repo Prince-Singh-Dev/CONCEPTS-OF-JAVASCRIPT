@@ -91,3 +91,38 @@ function getData(dataId , getNextData ){   //getData will return a data and givi
         },5000);
     });
 }
+
+//To access the promise if , result is fullfilled 
+let promise = getPromise();
+promise.then(() => {
+    console.log("promise fulfilled");
+})
+
+//Promise Chain 
+
+function asyncFunction1(){ //ayncFunction to get data
+    return new Promise((resolve , reject) => {
+        setTimeout(() => {
+            console.log("some data1");
+            resolve("success");
+        },4000);
+    });
+}
+
+function asyncFunction2(){
+    return new Promise((resolve , reject) => {
+        setTimeout(() => {
+            console.log("some data2");
+            resolve("success");
+        },4000);
+    });
+}
+
+console.log("fetching data 1");  //Fetching data1
+let p1 = asyncFunction1(); //Calling asyncFunction1
+p1.then((res) => {  //If result will obtain
+    console.log(res);  //Printing it on console window
+    console.log("fetching data2 .."); //after getting data 1 , data 2 will be fetched 
+    let p2 = asyncFunction2();
+    p2.then((res) => {});
+});
