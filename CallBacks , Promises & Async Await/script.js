@@ -126,3 +126,9 @@ p1.then((res) => {  //If result will obtain
     let p2 = asyncFunction2();
     p2.then((res) => {});
 });
+
+//Asyn-Await  : aync function always returns a promise , await pauses the execution of its surrounding async function until the promise is settled
+async function hello(){ 
+    console.log("hello");
+}
+
