@@ -1,5 +1,5 @@
 // Arrays in JS : Collection of Items --> linear 
-//to create array 
+//to create array .
 
 let marks = [97,86,67,89];
 console.log(marks);  
